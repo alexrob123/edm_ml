@@ -22,7 +22,7 @@ def main(args):
             quiet=False,
         )
 
-    attr_file = os.path.join(dataset_dir, "list_attr_celeba.zip")
+    attr_file = os.path.join(dataset_dir, "list_attr_celeba.txt")
     if os.path.exists(attr_file):
         print(f"Attr file already exists: {attr_file}, skipping download.")
     else:
